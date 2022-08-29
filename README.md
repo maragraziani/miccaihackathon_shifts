@@ -55,7 +55,7 @@ Medical imaging datasets are known to be highly heterogeneous, being often colle
 
 In this task, you will investigate the domain shifts in white matter (WM) lesion segmentation:
 <ol>
-<li> Discuss, identify and quantify the impact of *multiple sources of shift* within the multiple sclerosis dataset of WM lesions in the [Shifts 2.0 publicly available dataset](https://shifts.ai/dataset#white-matter-multiple-sclerosis-lesion-segmentation).
+<li> Discuss, identify and quantify the impact of *multiple sources of shift* within the multiple sclerosis dataset of WM lesions in the Shifts 2.0 publicly available [dataset](https://shifts.ai/dataset#white-matter-multiple-sclerosis-lesion-segmentation).
 <li>Quantify the impact of multiple annotators as opposed to a single annotator in terms of model uncertainty. How does model uncertainty vary against the number of annotations considered to create the “golden reference”? Does the uncertainty decrease if more annotators are used?
 <li>How many annotators in the given dataset over-segment the “golden reference”? How many undersegment? What is the observed bias introduced by each of the annotators?
  
