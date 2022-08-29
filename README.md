@@ -59,7 +59,7 @@ In this task, you will investigate the domain shifts in white matter (WM) lesion
 <li>Quantify the impact of multiple annotators as opposed to a single annotator in terms of model uncertainty. <strong>How does model uncertainty compare against annotator variance?</strong> How does model uncertainty vary against the number of annotations considered to create the “golden reference”? Does the uncertainty decrease if more annotators are used?
   <li>How many annotators in the given dataset <strong>over-segment</strong> the “golden reference”? How many <strong>under-segment</strong>? What is the observed bias introduced by each of the annotators?
  
-## About the Shifts Project and the Upcoming Shifts 2.0 Challenge 
+# About the Shifts Project and the Upcoming Shifts 2.0 Challenge 
  
   The [Shifts Project](https://shifts.ai) is an international collaboration of academic and industrial researchers dedicated to studying distributional shift — one of the biggest challenges in applying machine learning to high-stakes real-world tasks.
    A second iteration of the [Shifts Challenge](https://shifts.ai/challenges) is foreseen very soon. The competition will consist of two new tracks, each corresponding to a high-risk application affected by distributional shift: marine cargo vessel power estimation and White Matter Multiple Sclerosis lesion segmentation in 3D Magnetic Resonance Imaging of the brain. Both tasks are strongly affected by distributional shift and have strict requirements on robustness. Furthermore, both applications are socially relevant: the former in terms of lowering carbon emissions of supply chains and the latter in terms of alleviating a widespread, incurable and degenerative illness.
@@ -67,6 +67,12 @@ In this task, you will investigate the domain shifts in white matter (WM) lesion
 <!-- GETTING STARTED -->
 # Getting Started
  
+## Dataset
+   
+    You will be working with a <strong>subset</strong> of the training data provided in Track 1 of the Shifts 2.0 challenge. 
+    More information about the dataset and instruction on how to access the download page can be found in [data](#)
+    
+    
 ## Dependencies
 
 * [Python 3.8](www.python.org)
@@ -75,7 +81,7 @@ In this task, you will investigate the domain shifts in white matter (WM) lesion
 
 ### Baseline Models Repo and Installation
   
-  T
+  
  https://github.com/Shifts-Project/shifts/tree/main/mswml
   
 This is an example of how to list things you need to use the software and how to install them.
