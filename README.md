@@ -57,7 +57,7 @@ In this task, you will investigate the domain shifts in white matter (WM) lesion
 <ol>
 <li> Discuss, identify and quantify the impact of <strong>multiple sources of shift</strong> within the multiple sclerosis dataset of WM lesions in the Shifts 2.0 publicly available <a href=https://shifts.ai/dataset#white-matter-multiple-sclerosis-lesion-segmentation> dataset </a>.
 <li>Quantify the impact of multiple annotators as opposed to a single annotator in terms of model uncertainty. <strong>How does model uncertainty compare against annotator variance?</strong> How does model uncertainty vary against the number of annotations considered to create the “golden reference”? Does the uncertainty decrease if more annotators are used?
-<li>How many annotators in the given dataset over-segment the “golden reference”? How many undersegment? What is the observed bias introduced by each of the annotators?
+  <li>How many annotators in the given dataset <strong>over-segment</strong> the “golden reference”? How many <strong>under-segment</strong>? What is the observed bias introduced by each of the annotators?
  
 ## About the Shifts Project and the Upcoming Shifts 2.0 Challenge 
  
