@@ -41,14 +41,14 @@
   <p align="center">
     project_description
     <br />
-    <a href="https://github.com/maragraziani/miccaihackathon-shifts"><strong>Explore the docs »</strong></a>
+    <a href="https://github.com/maragraziani/miccaihackathon_shifts"><strong>Explore the docs »</strong></a>
     <br />
     <br />
-    <a href="https://github.com/maragraziani/miccaihackathon-shifts">View Demo</a>
+    <a href="https://github.com/maragraziani/miccaihackathon_shifts">View Demo</a>
     ·
-    <a href="https://github.com/maragraziani/miccaihackathon-shifts/issues">Report Bug</a>
+    <a href="https://github.com/maragraziani/miccaihackathon_shifts/issues">Report Bug</a>
     ·
-    <a href="https://github.com/maragraziani/miccaihackathon-shifts/issues">Request Feature</a>
+    <a href="https://github.com/maragraziani/miccaihackathon_shifts/issues">Request Feature</a>
   </p>
 </p>
 
