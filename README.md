@@ -33,13 +33,13 @@
 <br />
 <p align="center">
   <a href="https://github.com/maragraziani/miccaihackathon_shifts">
-    <img src="images/logo.png" alt="Logo" width="80" height="80">
+    <img src="images/logo.jpeg" alt="Logo" width="800">
   </a>
 
-  <h3 align="center">project_title</h3>
+  <h3 align="center">Domain Shifts Between Clinical Annotators</h3>
 
   <p align="center">
-    project_description
+    Task 1 at the MICCAI Hackathon 2022
     <br />
     <a href="https://github.com/maragraziani/miccaihackathon_shifts"><strong>Explore the docs »</strong></a>
     <br />
