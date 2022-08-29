@@ -48,38 +48,16 @@
   </p>
 </p>
 
-
-
-<!-- TABLE OF CONTENTS -->
-<details open="open">
-  <summary><h2 style="display: inline-block">Table of Contents</h2></summary>
-  <ol>
-    <li>
-      <a href="#about-the-project">About The Project</a>
-      <ul>
-        <li><a href="#built-with">Built With</a></li>
-      </ul>
-    </li>
-    <li>
-      <a href="#getting-started">Getting Started</a>
-      <ul>
-        <li><a href="#prerequisites">Prerequisites</a></li>
-        <li><a href="#installation">Installation</a></li>
-      </ul>
-    </li>
-    <li><a href="#usage">Usage</a></li>
-    <li><a href="#roadmap">Roadmap</a></li>
-    <li><a href="#contributing">Contributing</a></li>
-    <li><a href="#license">License</a></li>
-    <li><a href="#contact">Contact</a></li>
-    <li><a href="#acknowledgements">Acknowledgements</a></li>
-  </ol>
-</details>
-
-
-
 <!-- ABOUT THE PROJECT -->
-## About The Project
+## Task Overview
+
+Medical imaging datasets are known to be highly heterogeneous, being often collected at multiple institutions and resulting in so-called domain-shifts between institutions. At the level of manual segmentations, annotators trained in one institution may follow slightly different annotation procedures, e.g. over- and under-segmenting, and this may bias the learning process. 
+
+In this task, you will investigate the domain shifts in white matter (WM) lesion segmentation:
+<ol>
+<li> Discuss, identify and quantify the impact of multiple sources of shift within the multiple sclerosis dataset of WM lesions in Shifts 2.0 publicly available dataset.<\li>
+<li>Quantify the impact of multiple annotators as opposed to a single annotator in terms of model uncertainty. How does model uncertainty vary against the number of annotations considered to create the “golden reference”? Does the uncertainty decrease if more annotators are used?<\li>
+<li>How many annotators in the given dataset over-segment the “golden reference”? How many undersegment? What is the observed bias introduced by each of the annotators?<\li>
 
 [![Product Name Screen Shot][product-screenshot]](https://example.com)
 
