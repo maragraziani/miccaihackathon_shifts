@@ -123,16 +123,24 @@ Distributed under the Apache License. See `LICENSE` for more information.
 <!-- CONTACT -->
 ## Contact
 
-Mara Graziani - [@mormontre](https://twitter.com/mormontre) - email
-Vatsal Raina
-Nataliia Molchanova
+Mara Graziani - Hes-so Valais - [@mormontre](https://twitter.com/mormontre) - mara.graziani@hevs.ch
+
+Vatsal Raina - University of Cambridge - contact
+
+Nataliia Molchanova - Université de Lausanne & Hes-so Valais - contact
 
 <!-- ACKNOWLEDGEMENTS -->
 ## Acknowledgements
 
 * [Shifts project](www.shifts.ai)
-* [AI4Media](#)
-* [MSXPlain]()
+* [AI4Media](https://wp.unil.ch/mial/research/projects/msxplain/)
+* [MSXPlain](https://wp.unil.ch/mial/research/projects/msxplain/)
+
+## Project PIs
+
+* Andrey Malinin 
+* Henning Müller
+* Meri Bach Cuadra
 
 <!-- MARKDOWN LINKS & IMAGES -->
 <!-- https://www.markdownguide.org/basic-syntax/#reference-style-links -->
