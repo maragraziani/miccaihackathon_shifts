@@ -71,35 +71,41 @@ In this task, you will investigate the domain shifts in white matter (WM) lesion
 
 You will be working with a <strong>subset</strong> of the training data provided in Track 1 of the Shifts 2.0 challenge. 
 More information about the dataset and instruction on how to access the download page can be found in the [data](#) folder of this repo.
-    
-    
+
+[Note] The MSSEG directory in the dataset contains the data that you need to participate to the hackathon, namely the independent annotation masks obtained by 7 different annotators. These files were used to generate a consensus map (by majority voting) used as the golden reference in our [baseline model](#). Note that in the Best directory of the repo there are also two individual annotators (one more experienced than the other). The golden reference is in this case the expert annotator.
+       
 ## Dependencies
 
 * [Python 3.8](www.python.org)
 * [PyTorch 1.12.0](www.pytorch.org)
 * [Monai 0.9.0](www.monai.io)
 
+See the full list of dependencies [here](https://github.com/Shifts-Project/shifts/blob/main/mswml/requirements.txt). 
+
 ### Baseline Models Repo and Installation
   
-  
- https://github.com/Shifts-Project/shifts/tree/main/mswml
-  
-This is an example of how to list things you need to use the software and how to install them.
-* npm
-  ```sh
-  npm install npm@latest -g
-  ```
+We provide you with different baseline models and the instructions to train them on the provided dataset. 
+For some of these models, we directly release the pretrained weights to facilitate the participation in the hackathon. 
 
-### Installation
+The "challenge-baseline" model was trained on the canonical splits proposed in the Shifts 2.0 challenge. 
+You can access the model at this (repo)[https://github.com/Shifts-Project/shifts/tree/main/mswml] and its [pretrained weights](#). 
 
-1. Clone the repo
-   ```sh
-   git clone https://github.com/github_username/repo_name.git
-   ```
-2. Install NPM packages
-   ```sh
-   npm install
-   ```
+To train the challenge-baseline, run:
+    #!/bin/bash
+    for seed in 1 2 3
+    do
+      python mswml/train.py \
+      --seed $seed \
+      --path_train_data /path/to/train/FLAIR \
+      --path_train_gts /path/to/train/ground/truth/masks \
+      --path_val_data /path/to/val/FLAIR \
+      --path_val_gts /path/to/val/ground/truth/masks \
+      --path_save "/path/to/baselines/dir/${seed}"
+    done
+
+Annotator-specific baseline models can also be used to further verify the impact of individual annotators biases on the model training. We are training the models on our servers and we will release them in the coming future in the directory [annotator-models](#) of this repo. 
+Alternatively, you can train your annotator-specific baseline models by changing the path_train_gts and path_val_gts when training the baseline models.
+
 
 
 
