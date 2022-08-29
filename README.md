@@ -41,14 +41,10 @@
   <p align="center">
     Task 1 at the MICCAI Hackathon 2022
     <br />
-    <a href="https://github.com/maragraziani/miccaihackathon_shifts"><strong>Explore the docs »</strong></a>
-    <br />
-    <br />
-    <a href="https://github.com/maragraziani/miccaihackathon_shifts">View Demo</a>
-    ·
-    <a href="https://github.com/maragraziani/miccaihackathon_shifts/issues">Report Bug</a>
-    ·
-    <a href="https://github.com/maragraziani/miccaihackathon_shifts/issues">Request Feature</a>
+    Mentored by: »
+    <a href="mailto:mara.graziani@hevs.ch">Mara Graziani</a>
+    &
+    <a href="mailto:henning.mueller@hevs.ch">Henning Müller</a>
   </p>
 </p>
 
