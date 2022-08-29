@@ -68,9 +68,9 @@ In this task, you will investigate the domain shifts in white matter (WM) lesion
 # Getting Started
  
 ## Dataset
-   
-    You will be working with a <strong>subset</strong> of the training data provided in Track 1 of the Shifts 2.0 challenge. 
-    More information about the dataset and instruction on how to access the download page can be found in [data](#)
+
+You will be working with a <strong>subset</strong> of the training data provided in Track 1 of the Shifts 2.0 challenge. 
+More information about the dataset and instruction on how to access the download page can be found in [data](#)
     
     
 ## Dependencies
