@@ -109,6 +109,10 @@ done
 Annotator-specific baseline models can also be used to further verify the impact of individual annotators biases on the model training. We are training the models on our servers and we will release them in the coming future in the directory [annotator-models](#) of this repo. 
 Alternatively, you can train your annotator-specific baseline models by changing the path_train_gts and path_val_gts when training the baseline models.
 
+## Inference and Uncertainty Mask Generation
+	  
+Check the [notebooks](#) folder of this repo for a quick tutorial on how to generate the uncertainty masks for each input image and for instructions on how to process and save the 3D uncertainty masks. 
+	  
 <!-- LICENSE -->
 ## License
 
