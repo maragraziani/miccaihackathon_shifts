@@ -55,27 +55,29 @@ Medical imaging datasets are known to be highly heterogeneous, being often colle
 
 In this task, you will investigate the domain shifts in white matter (WM) lesion segmentation:
 <ol>
-<li> Discuss, identify and quantify the impact of multiple sources of shift within the multiple sclerosis dataset of WM lesions in the Shifts 2.0 publicly available dataset.
+<li> Discuss, identify and quantify the impact of *multiple sources of shift* within the multiple sclerosis dataset of WM lesions in the [Shifts 2.0 publicly available dataset](https://shifts.ai/dataset#white-matter-multiple-sclerosis-lesion-segmentation).
 <li>Quantify the impact of multiple annotators as opposed to a single annotator in terms of model uncertainty. How does model uncertainty vary against the number of annotations considered to create the “golden reference”? Does the uncertainty decrease if more annotators are used?
 <li>How many annotators in the given dataset over-segment the “golden reference”? How many undersegment? What is the observed bias introduced by each of the annotators?
+ 
+## About the Shifts Project and the Upcoming Shifts 2.0 Challenge 
+ 
+  The [Shifts Project](https://shifts.ai) is an international collaboration of academic and industrial researchers dedicated to studying distributional shift — one of the biggest challenges in applying machine learning to high-stakes real-world tasks.
+   A second iteration of the [Shifts Challenge](https://shifts.ai/challenges) is foreseen very soon. The competition will consist of two new tracks, each corresponding to a high-risk application affected by distributional shift: marine cargo vessel power estimation and White Matter Multiple Sclerosis lesion segmentation in 3D Magnetic Resonance Imaging of the brain. Both tasks are strongly affected by distributional shift and have strict requirements on robustness. Furthermore, both applications are socially relevant: the former in terms of lowering carbon emissions of supply chains and the latter in terms of alleviating a widespread, incurable and degenerative illness.
 
-[![Get Started Part 1]](#)
-
-
-### Dependencies
+<!-- GETTING STARTED -->
+# Getting Started
+ 
+## Dependencies
 
 * [Python 3.8](www.python.org)
 * [PyTorch 1.12.0](www.pytorch.org)
 * [Monai 0.9.0](www.monai.io)
 
-
-<!-- GETTING STARTED -->
-## Getting Started
-
-To get a local copy up and running follow these simple steps.
-
-### Prerequisites
-
+### Baseline Models Repo and Installation
+  
+  T
+ https://github.com/Shifts-Project/shifts/tree/main/mswml
+  
 This is an example of how to list things you need to use the software and how to install them.
 * npm
   ```sh
