@@ -82,88 +82,53 @@ More information about the dataset and instruction on how to access the download
 
 See the full list of dependencies [here](https://github.com/Shifts-Project/shifts/blob/main/mswml/requirements.txt). 
 
-### Baseline Models Repo and Installation
-  
+## Model training 
+
 We provide you with different baseline models and the instructions to train them on the provided dataset. 
 For some of these models, we directly release the pretrained weights to facilitate the participation in the hackathon. 
 
 The "challenge-baseline" model was trained on the canonical splits proposed in the Shifts 2.0 challenge. 
-You can access the model at this (repo)[https://github.com/Shifts-Project/shifts/tree/main/mswml] and its [pretrained weights](#). 
+You can access the model at this <a href="https://github.com/Shifts-Project/shifts/tree/main/mswml">repo</a> and its [pretrained weights](#). 
 
 To train the challenge-baseline, run:
-    #!/bin/bash
-    for seed in 1 2 3
-    do
-      python mswml/train.py \
-      --seed $seed \
-      --path_train_data /path/to/train/FLAIR \
-      --path_train_gts /path/to/train/ground/truth/masks \
-      --path_val_data /path/to/val/FLAIR \
-      --path_val_gts /path/to/val/ground/truth/masks \
-      --path_save "/path/to/baselines/dir/${seed}"
-    done
+
+```bash
+#!/bin/bash
+for seed in 1 2 3
+do
+	python mswml/train.py \
+	--seed $seed \
+	--path_train_data /path/to/train/FLAIR \
+	--path_train_gts /path/to/train/ground/truth/masks \
+	--path_val_data /path/to/val/FLAIR \
+	--path_val_gts /path/to/val/ground/truth/masks \
+	--path_save "/path/to/baselines/dir/${seed}"
+done
+```
 
 Annotator-specific baseline models can also be used to further verify the impact of individual annotators biases on the model training. We are training the models on our servers and we will release them in the coming future in the directory [annotator-models](#) of this repo. 
 Alternatively, you can train your annotator-specific baseline models by changing the path_train_gts and path_val_gts when training the baseline models.
 
-
-
-
-<!-- USAGE EXAMPLES -->
-## Usage
-
-Use this space to show useful examples of how a project can be used. Additional screenshots, code examples and demos work well in this space. You may also link to more resources.
-
-_For more examples, please refer to the [Documentation](https://example.com)_
-
-
-
-<!-- ROADMAP -->
-## Roadmap
-
-See the [open issues](https://github.com/github_username/repo_name/issues) for a list of proposed features (and known issues).
-
-
-
-<!-- CONTRIBUTING -->
-## Contributing
-
-Contributions are what make the open source community such an amazing place to be learn, inspire, and create. Any contributions you make are **greatly appreciated**.
-
-1. Fork the Project
-2. Create your Feature Branch (`git checkout -b feature/AmazingFeature`)
-3. Commit your Changes (`git commit -m 'Add some AmazingFeature'`)
-4. Push to the Branch (`git push origin feature/AmazingFeature`)
-5. Open a Pull Request
-
-
-
 <!-- LICENSE -->
 ## License
 
-Distributed under the MIT License. See `LICENSE` for more information.
+Distributed under the Apache License. See `LICENSE` for more information.
 
 
 
 <!-- CONTACT -->
 ## Contact
 
-Your Name - [@twitter_handle](https://twitter.com/twitter_handle) - email
-
-Project Link: [https://github.com/github_username/repo_name](https://github.com/github_username/repo_name)
-
-
+Mara Graziani - [@mormontre](https://twitter.com/mormontre) - email
+Vatsal Raina
+Nataliia Molchanova
 
 <!-- ACKNOWLEDGEMENTS -->
 ## Acknowledgements
 
-* []()
-* []()
-* []()
-
-
-
-
+* [Shifts project](www.shifts.ai)
+* [AI4Media](#)
+* [MSXPlain]()
 
 <!-- MARKDOWN LINKS & IMAGES -->
 <!-- https://www.markdownguide.org/basic-syntax/#reference-style-links -->
