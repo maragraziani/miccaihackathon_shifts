@@ -127,7 +127,7 @@ Mara Graziani - Hes-so Valais - [@mormontre](https://twitter.com/mormontre) - ma
 
 Vatsal Raina - University of Cambridge - contact
 
-Nataliia Molchanova - Université de Lausanne & Hes-so Valais - contact
+Nataliia Molchanova - Université de Lausanne & Hes-so Valais - nataliia.molchanova@hevs.ch
 
 <!-- ACKNOWLEDGEMENTS -->
 ## Acknowledgements
