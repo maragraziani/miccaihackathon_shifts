@@ -1,4 +1,3 @@
 We provide the following tutorials in Colab:
 
-- How to perform inference and generate uncertainty masks (see GenerateUncertaintyMasks.ipynb)
-- DataHandling.ipynb
+- GenerateUncertaintyMasks.ipynb: How to perform inference, generate uncertainty masks and handle 3D data visualization 
