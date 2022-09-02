@@ -1,8 +1,8 @@
 # Data Access and File Structure
 
-The full dataset of Shifts 2.0 Track 1 on Multiple Sclerosis lesion segmentation can be downloaded from [Zenodo](#). 
+The full dataset of Shifts 2.0 Track 1 on Multiple Sclerosis lesion segmentation can be used for this Track. The data can be accessed upon completion of this [form](https://forms.gle/3n2tkYQcW18Z3f5i7), which includes a Data User Agreement to ensure the privacy protection and compliance of the data sharing to the requirements set by some of our data providers. 
 
-<strong>[! IMPORTANT] To obtain the data for this track you are requested to complete a Data User Agreement. Please follow  the instructions reported in Zenodo. After our  approval of your request, you will be granted access to the data download page.</strong>
+<strong>[! IMPORTANT] You can only obtain the data for this track if you successfully fill in the Data User Agreement. Please follow  the instructions reported in the [form](https://forms.gle/3n2tkYQcW18Z3f5i7). After our  approval of your request, you will be granted access to the data download page.</strong>
 
 The dataset includes the following datasets:
 <ul>
