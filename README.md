@@ -125,7 +125,7 @@ Distributed under the Apache License. See `LICENSE` for more information.
 
 Mara Graziani - Hes-so Valais - [@mormontre](https://twitter.com/mormontre) - mara.graziani@hevs.ch
 
-Vatsal Raina - University of Cambridge - contact
+Vatsal Raina - University of Cambridge - vr311@cam.ac.uk
 
 Nataliia Molchanova - Université de Lausanne & Hes-so Valais - nataliia.molchanova@hevs.ch
 
